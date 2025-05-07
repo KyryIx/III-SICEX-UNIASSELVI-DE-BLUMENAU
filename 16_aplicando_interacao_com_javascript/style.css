@@ -1,0 +1,29 @@
+body {
+	font-family: Tahoma;
+	margin: 20px;
+}
+td:first-child{
+	/* border: 5px solid red; */
+	text-align: right;
+}
+td:nth-child(2){
+	/* border: 5px solid green; */
+	text-align: left;
+}
+td[colspan="2"]{
+	/* border: 5px solid yellow; */
+	padding: 5px;
+	text-align: center;
+}
+tfoot{
+	background-color: #fff;
+	color: #000000;
+}
+button{
+	height: 40px;
+	width: 200px;
+}
+button img{
+	height: 32px;
+	vertical-align: middle;
+}

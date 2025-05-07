@@ -1,0 +1,10 @@
+body {
+	margin: 20px;
+}
+#primeiro{ color: gray; }
+.vermelho{ color: red; }
+strong{ color: green; }
+mark{
+	background-color: rgb(245,129,245);
+	padding: 2 5 2 5;
+}

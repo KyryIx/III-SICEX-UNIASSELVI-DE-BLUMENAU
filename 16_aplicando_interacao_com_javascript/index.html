@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Inclusão de interação com JavaScript</title>
+	</head>
+	<body>
+		<p>Calculadora de IMC</p>
+		<table border="1">
+			<tbody>
+				<tr>
+					<td>Massa corporal (kg):</td>
+					<td><input type="text" id="massa" value="62"/></td>
+				</tr>
+				<tr>
+					<td>Altura (m):</td>
+					<td><input type="text" id="altura" value="1.69"/></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<!-- <input type="button" id="botao_calcular" value="Calcular"/> -->
+						<!-- <button id="botao_calcular">Calcular</button> -->
+						
+						<!-- <input type="button" id="botao_calcular" value="Calcular" onclick="window.alert('Oiiii');"/> -->
+						<!-- <button id="botao_calcular" onclick="window.alert('Olaaaaaá');">Calcular</button> -->
+						<!-- https://icons8.com.br/icons/set/gear -->
+						<!--<button id="botao_calcular" onclick="window.alert('Olaaaaaá');"><img src="https://img.icons8.com/?size=100&id=44471&format=png&color=000000"/> Calcular</button> -->
+						<button id="botao_calcular"><img src="https://img.icons8.com/?size=100&id=44471&format=png&color=000000"/> Calcular</button>
+					</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td rowspan="2">Resultado:</td>
+					<td id="resultado_valor"></td>
+				</tr>
+				<tr>
+					<td id="resultado_classe"></td>
+				</tr>
+			</tfoot>
+		</table>
+		<script src="script.js"></script>
+	</body>
+</html>

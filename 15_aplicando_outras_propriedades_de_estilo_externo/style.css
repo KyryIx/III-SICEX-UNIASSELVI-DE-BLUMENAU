@@ -1,0 +1,16 @@
+body {
+	font-family: Tahoma;
+	margin: 20px;
+}
+th{
+	background-color: rgb(245,129,245);
+	color: white;
+	padding: 2 5 2 5;
+}
+td:nth-child(2){
+	text-align: center;
+}
+tfoot{
+	background-color: #000;
+	color: #ffffff;
+}
